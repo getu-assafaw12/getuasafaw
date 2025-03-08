@@ -1,0 +1,297 @@
+@font-face {
+    font-family: my font;
+    src: url(NostalgicWhispers-Regular.ttf);
+}
+.firstpart{
+    background-image: url(idk.jpeg);
+    padding: 150px;
+    background-size: cover;
+    background-color: transparent;
+    background-position: 50% 50%;
+}
+ .firstpart h1{
+    font-family: my font;
+    text-emphasis: circle;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 50px;
+    font-stretch:extra-condensed;
+    margin-top: 50px;
+    color: rgb(239, 115, 7);
+}
+.firstpart p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color:rgb(210, 16, 42);
+}
+h2{
+    font-size:50px ;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration-line: underline;
+}
+.h2p{
+    font-size:40px;
+    margin-left: 20px;
+}
+.projects{
+    display: flex;
+     
+}
+.database{
+    border: 7px solid;
+    border-radius: 5px;
+    border-color: palevioletred;
+    padding: 0px;
+    margin: 10px;
+    margin-right:150px; 
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
+.database img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right:10px;
+    padding-right: 10px;
+}
+.database p{
+  margin-left: 20px;
+  font-size: 20px;
+ 
+  
+}
+.database h5{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.dsa{
+    border: 7px solid;
+    border-radius: 5px;
+    border-color: palevioletred;
+    padding:60px;
+    margin: 10px;
+    margin-right:100px;
+}
+.dsa img{
+    width: 300px;
+    height: 300px;
+    
+    
+}  
+.dsa p{
+    font-size: 20px;
+    margin-left: 20px;
+
+} 
+.dsa h5{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.vision h3{
+    font-size: 50px;
+    text-align: center;
+}
+.vision p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.passion{
+    display: flex;
+    margin-top: 50px;
+    font-size: 25px;    
+}
+
+
+.passion img{
+    width: 400px;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 150px;
+   
+}
+.value{
+    display: flex;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.value img{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;    
+}
+.valuep{
+    margin-left: 150px;
+}
+.consistency{
+    display: flex; 
+    margin-top: 50px;
+    font-size: 25px;
+}
+.consistency img{
+    width: 400px;
+    height: 400px;
+    margin-right: 80px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.wraper{
+    border:  5px solid;
+    border-radius: 7px;
+    border-color: palevioletred;
+    margin: 40px;
+}
+ @media (min-width:768px) and (max-width:1024px){
+    .projects{
+        display: flex;        
+   }
+   .database{
+    border: 7px solid;
+    border-radius: 5px;
+    border-color: palevioletred;
+    padding: 0px;
+    margin: 10px;
+    margin-right:30px; 
+    margin-left: 50px;
+    padding-bottom: 10px;
+}
+ }
+ @media (max-width:412px){
+    .firstpart h1{
+        width: 70%;
+        font-family: my font;
+        text-emphasis: circle;
+        text-align: center;
+        text-overflow: ellipsis;
+        font-size: 30px;
+        font-stretch:extra-condensed;
+        margin-top: 30px;
+        color: black;
+    }
+    .firstpart p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+        color: #000;
+   }
+   h2{
+    font-size:30px ;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration-line: underline;
+}
+.h2p{
+    font-size:20px;
+    margin-left: 20px;
+}
+.projects{
+    display: block;
+     
+}
+.database{
+    border: 7px solid;
+    border-radius: 5px;
+    border-color: palevioletred;
+    padding: 0px;
+    margin: 10px;
+    margin-right:0px; 
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.database img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right:5px;
+    padding-right: 10px;
+}
+.database p{
+  margin-left: 20px;
+  font-size: 20px;
+ 
+  
+}
+.database h5{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.dsa{
+    border: 7px solid;
+    border-radius: 5px;
+    border-color: palevioletred;
+    padding:60px;
+    margin: 10px;
+    margin-right:0px;
+}
+.dsa img{
+    width: 280px;
+    height: 300px;
+    
+    
+}  
+.dsa p{
+    font-size: 20px;
+    margin-left: 10px;
+
+} 
+.dsa h5{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.vision h3{
+    font-size: 50px;
+    text-align: center;
+}
+.vision p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.passion{
+    width: 70%;
+    display: block;
+    margin-top: 50px;
+    font-size: 20px; 
+    margin-left:30px ; 
+   
+}
+
+
+.passion img{
+    width: 230px;
+    height: 300px;
+    margin-right:0px;
+    margin-left: 30px;
+   
+}
+.value{
+    display:block;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.value img{
+    width: 230px;
+    height: 300px;
+    margin-left: 30px;    
+}
+.valuep{
+    margin-left: 30px;
+}
+.consistency{
+    display: block; 
+    margin-top: 50px;
+    font-size: 20px;
+}
+.consistency img{
+    width: 230px;
+    height: 300px;
+    margin-right: 0px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+ .cp{
+    margin-left: 30px;
+ }
+}   
